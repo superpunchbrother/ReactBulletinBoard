@@ -1,7 +1,8 @@
 import React from 'react'
 import './App.css'
+import Note from './Note'
 
-        var Board = React.createClass({
+var Board = React.createClass({
             propTypes: {
                 count: function(props, propName) {
                     if(typeof props[propName] !== "number") {
@@ -77,6 +78,4 @@ import './App.css'
             }
         })
 
-
 export default Board
-
